@@ -19,14 +19,18 @@
         </div>
     </nav>
 
-    <!-- QR Code Form -->
-    <div class="container mt-5">
-        <h2>Generate QR Code for Digital Restaurant Menu</h2>
-        <form action="{% url 'generate_qr_code' %}" method="POST">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="btn btn-primary">Generate QR Code</button>
-        </form>
+    <!-- QR Code Result -->
+    <div class="container mt-5 align-items-center text-center">
+        <h2>Generated QR Code for {{ restaurant_name }} Menu</h2>
+        <div class="mt-4">
+            <img src="{{ qr_url }}" alt="QR Code" class="img-fluid" style="border: 1px solid #ddd; padding: 10px; background-color: #f8f9fa;">
+        </div>
+        <div>
+            <a href="{{ qr_url }}" download="qr_code.png" class="btn btn-primary mt-3">Download QR Code</a>
+            <br>
+            <small>Scan the QR code to view the digital menu.</small>
+        <div>
+        
     </div>
 </body> 
 </html>
