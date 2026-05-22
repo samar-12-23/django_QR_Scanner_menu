@@ -1,7 +1,7 @@
 # 🍽️ Restaurant Menu QR Code Generator
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
-![Django](https://img.shields.io/badge/Django-4.x-green?style=for-the-badge&logo=django)
+![Django](https://img.shields.io/badge/Django-6.x-green?style=for-the-badge&logo=django)
 ![QR Code](https://img.shields.io/badge/QRCode-Generation-orange?style=for-the-badge)
 
 A free-to-use web application built with **Python & Django** that allows any restaurant owner to generate QR codes for their menu. The owner simply submits a **Google Drive link or any menu URL** (PDF, image, or webpage), and the app encodes it into a single QR code. This **same QR code** is then assigned to each table in the restaurant — every table is individually recorded in the database, but all tables share the same generated QR image. Customers scan the QR from any table and instantly access the menu. No login required for customers, no app needed.
@@ -41,7 +41,7 @@ A free-to-use web application built with **Python & Django** that allows any res
 
 | Layer       | Technology              |
 |-------------|-------------------------|
-| Backend     | Python 3.10+, Django 4.x |
+| Backend     | Python 3.10+, Django 6.x |
 | Frontend    | HTML5, Bootstrap 5 (CDN), JavaScript (CDN) |
 | Database    | SQLite (Dev) / PostgreSQL (Prod) |
 | QR Library  | `qrcode`, `Pillow`      |
@@ -210,7 +210,7 @@ Visit `http://127.0.0.1:8000` in your browser.
 ### Requirements (`requirements.txt`)
 
 ```
-Django>=4.2
+Django>=6.0
 qrcode[pil]
 Pillow
 python-decouple
