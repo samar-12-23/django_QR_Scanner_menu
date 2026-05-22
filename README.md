@@ -295,8 +295,8 @@ Contributions are welcome! Please follow these steps:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/samar-12-23)
-- LinkedIn: [yourlinkedin](https://www.linkedin.com/in/samar-gupta-449536284/)
+- GitHub: [@samar-12-23](https://github.com/samar-12-23)
+- LinkedIn: [samar-gupta-339536284](https://www.linkedin.com/in/samar-gupta-449536284/)
 - Email: samargupta0206@gmail.com
 
 ---
