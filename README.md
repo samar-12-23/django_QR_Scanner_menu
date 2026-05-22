@@ -1,7 +1,7 @@
 # 🍽️ Restaurant Menu QR Code Generator
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
-![Django](https://img.shields.io/badge/Django-4.x-green?style=for-the-badge&logo=django)
+![Django](https://img.shields.io/badge/Django-6.x-green?style=for-the-badge&logo=django)
 ![QR Code](https://img.shields.io/badge/QRCode-Generation-orange?style=for-the-badge)
 
 A full-stack web application built with **Python & Django** that allows restaurant owners to generate, manage, and share QR codes linked to their digital menus. Customers can scan the QR code with any smartphone to instantly view the restaurant's menu — no app required.
@@ -40,7 +40,7 @@ A full-stack web application built with **Python & Django** that allows restaura
 
 | Layer       | Technology              |
 |-------------|-------------------------|
-| Backend     | Python 3.10+, Django 4.x |
+| Backend     | Python 3.10+, Django 6.x |
 | Frontend    | HTML5, CSS3, Bootstrap 5 |
 | Database    | SQLite (Dev) / PostgreSQL (Prod) |
 | QR Library  | `qrcode`, `Pillow`      |
@@ -288,9 +288,9 @@ Contributions are welcome! Please follow these steps:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [yourlinkedin](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@samar_gupta](https://github.com/samar-12-23)
+- LinkedIn: [yourlinkedin](https://www.linkedin.com/in/samar-gupta-449536284/)
+- Email: samargupta0206@gmail.com
 
 ---
 
